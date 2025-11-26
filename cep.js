@@ -25,5 +25,4 @@
         });
     }
 
-    
-    //alert("teste de script")
+    console.log("JAVASCRIPT FUNCIONOU CARAIO");
