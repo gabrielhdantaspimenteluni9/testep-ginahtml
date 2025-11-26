@@ -1,13 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-    <h1>TESTE 123</h1>
-    
-</body>
-</html>
+<!-- DIVISÃO QUE MOSTRA AS ENTRADAS DE USUÁRIO E RESULTADOS DE API -->
+   
+   <section class="secaodecep">
+        
+   
+         <h3 id="TextoAntesDeConsultaDoCEP">
+               Faça uma consulta e verifique se entregamos no seu endereço
+         </h3>
+         
+         <h1 id="cabecalhoCEP">
+               Coloque seu CEP abaixo!
+         </h1>
+         
+         
+         
+         <div id="entradausuario">
+         
+            <!--PARTE QUE DEFINE O TIPO DE ENTRADA E MOSTRA TEXTOS NO CAMPO VAZIO DELA -->
+               <input type="text" id="cep" placeholder="Digite os 8 digitos do seu CEP aqui" maxlenght="8"><br>
+         
+            <!--DEFINIÇÕES DE BOTÃO -->
+               <button onclick="consultarCEP()" id="botão" cursor="pointer">Se já digitou é só apertar aqui</button>
+         </div>
+         
+            
+         
+            <!-- CAMPO ONDE VAI SAIR O RESULTADO DO CEP -->
+         <div id="resultado"></div>
+   </section>
